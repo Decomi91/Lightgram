@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+@import
+	url("https://fonts.googleapis.com/css?family=Open+Sans:300:400,600");
+
+@import "reset.css";
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #fafafa;
+	color: #020202;
+	font-family: "open sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+		Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	width: 100%;
+	height: 100%;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+#menu_action {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.center {
+	align-items: center;
+	float: left;
+}
+
+input {
+	border: none;
+	background-color: #f3f3f3;
+	height: 30px;
+	border-radius: 5px;
+	padding: 0;
+	width: 160px;
+	float: right;
+}
+
+.more__icon {
+	font-size: 30px;
+	margin-right: 20px;
+}
+
+.more__picture {
+	margin-top: 10px;
+}
+
+.picture {
+	max-width: 600px;
+	height: 500px;
+	background-color: #f3f3f3;
+	text-align: center;
+	line-height: 500px;
+}
+
+#preview {
+	display:none;
+	max-width: 600px;
+}
+
+.preview {
+	display:none;
+	justify-content: center;
+	align-items: center;
+	width: 600px;
+}
+
+form>div:first-child img {
+	cursor: pointer;
+	width: 25px;
+	height: 25px;
+}
+
+#upfile {
+	display: none;
+	text-align: center;
+}
+
+#upfile:hover {
+	cursor:pointer;
+}
+
+#filevalue {
+	text-align:center;
+	margin:0 0 5px 0;
+	cursor:pointer;
+}
+
+.form-group {
+	margin: 20px 0;
+}
+
+.form-group:not(.form-group:first-child) {
+	vertical-align: middle;
+	align-items:center;
+	margin: 5px 0 0 0 ;
+	float:right;
+}
+
+.form-group > label {
+	vertical-align: text-top;
+}
+
+textarea {
+	width: 600px;
+	max-width:600px;
+	border: none;
+	margin: 10px 0;
+	resize: none;
+}
+
+
+.location_select {
+	width:100%;
+	align-items: center;
+	display:flex;	
+}
+
+#open_level {
+	weight: 30px;
+	height: 30px;
+	margin: 0 10px 0 0;
+	float: left;
+}
+
+#location {
+	float: left;
+	padding: 10px;
+}
+
+button {
+	border: none;
+	margin: 10px;
+	background-color: skyblue;
+	border-radius: 5px;
+	color: white;
+	width: 60px;
+	height: 30px;
+	float: right;
+}
+
+img {
+	margin: 0;
+}
+
+li {
+	height: 60px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	list-style: none;
+}
+
+li:hover {
+	background-color: #fafafa;
+	cursor: pointer;
+	list-style: none;
+}
+
+#preview {
+	border:none;
+}
